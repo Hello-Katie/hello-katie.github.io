@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="keep writing, keep moving">
+    <meta name="author" content="Katie">
+    
+    <title>
+        
+            计算机网络 |
+        
+        Katie&#39;s Blog
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="/images/logo.svg">
+    
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {};
+    KEEP.hexo_config = {"hostname":"hello-katie.github.io","root":"/","language":"zh-CN"};
+    KEEP.theme_config = {"toc":{"enable":false,"number":false,"expand_all":false,"init_open":false},"style":{"primary_color":"#0066CC","avatar":"/images/avatar.svg","favicon":"/images/logo.svg","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":false,"scale":false},"first_screen":{"enable":false,"background_img":"/images/bg.svg","description":"Keep writing and Keep loving."},"scroll":{"progress_bar":{"enable":false},"percent":{"enable":false}}},"local_search":{"enable":false,"preload":false},"code_copy":{"enable":false,"style":"default"},"pjax":{"enable":false},"lazyload":{"enable":false},"version":"3.4.5"};
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+  </script>
+<meta name="generator" content="Hexo 6.0.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            <header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+            <a class="logo-title" href="/">
+                Katie&#39;s Blog
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                归档
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                标签
+                            </a>
+                        </li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">归档</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags">标签</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            <span class="title-hover-animation">计算机网络</span>
+        </div>
+
+        
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="/images/avatar.svg">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">Katie</span>
+                        
+                            <span class="author-label">Lv1</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fas fa-edit"></i>&nbsp;
+        <span class="pc">2022-01-30 12:11:00</span>
+        <span class="mobile">2022-01-30 12:11</span>
+    </span>
+    
+        <span class="article-categories article-meta-item">
+            <i class="fas fa-folder"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/categories/%E9%9D%A2%E8%AF%95/">面试</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="article-content markdown-body">
+            <h3 id="1、https的数据传输流程"><a href="#1、https的数据传输流程" class="headerlink" title="1、https的数据传输流程"></a>1、https的数据传输流程</h3><p>（1）浏览器将支持的加密算法信息发送给服务器</p>
+<p>（2）服务器选择一套浏览器支持的加密算法，以证书的形式回发浏览器</p>
+<p>（3）浏览器验证证书合法性，并结合证书公钥加密信息发送给服务器</p>
+<p>（4）服务器使用私钥解密信息，验证哈希，加密响应消息回发浏览器</p>
+<p>（5）浏览器解密响应消息，并对消息进行验证，之后进行加密交换数据</p>
+<h3 id="2、加密算法"><a href="#2、加密算法" class="headerlink" title="2、加密算法"></a>2、加密算法</h3><p>（1）对称加密：加密和解密都使用同一个密钥</p>
+<p>（2）非对称加密：加密和解密使用都密钥不同</p>
+<p>（3）哈希算法：不可逆的，不能解密，如MD5</p>
+<p>（4）数字签名：在信息后加一段hash生成的内容，这段内容可用于证明信息未被修改过</p>
+<h3 id="3、http常见状态码"><a href="#3、http常见状态码" class="headerlink" title="3、http常见状态码"></a>3、http常见状态码</h3><p>（1）200，OK：正常返回信息</p>
+<p>（2）301，Move Permanently：永久重定向</p>
+<p>（3）302，Move Temporarily：临时重定向</p>
+<p>（4）400，Bad Request：客户端请求有语法错误，不能被服务器所理解</p>
+<p>（5）401， Unauthoried：请求未经授权，这个状态码必须和www-Authenticate报头域一起使用</p>
+<p>（6）403，Forbidden：服务器收到请求，但是拒绝提供服务（可能是IP被禁了）</p>
+<p>（7）404， Not Found：请求资源不存在（可能输错了URL）</p>
+<p>（8）500，Internal Server Error：服务器发生不可预期的错误</p>
+<p>（9）502，Bad Gateway：作为网关或代理角色的服务器，从上游服务器（如tomcat、php-fpm）中接收到的响应是无效的</p>
+<p>（10）503，Server Unavailable：服务器当前不能处理客户端的请求，一段时间后可恢复正常（服务器连接池已满）</p>
+<h3 id="4、OSI-7层模型"><a href="#4、OSI-7层模型" class="headerlink" title="4、OSI 7层模型"></a>4、OSI 7层模型</h3><p>自顶向下分别是：</p>
+<p>（1）应用层</p>
+<p>（2）表示层</p>
+<p>（3）会话层</p>
+<p>（4）传输层：端→端</p>
+<p>（5）网络层：节点→节点，数据包</p>
+<p>（6）数据链路层：帧，交换机</p>
+<p>（7）物理层：比特流</p>
+<h3 id="5、TCP-IP四次协议模型"><a href="#5、TCP-IP四次协议模型" class="headerlink" title="5、TCP/IP四次协议模型"></a>5、TCP/IP四次协议模型</h3><p>（1）应用层（应用层、表示层、会话层）</p>
+<p>（2）传输层</p>
+<p>（3）网络层</p>
+<p>（4）链路层（数据链路层 、物理层）</p>
+<h3 id="6、TCP的三次握手"><a href="#6、TCP的三次握手" class="headerlink" title="6、TCP的三次握手"></a>6、TCP的三次握手</h3><p>TCP协议提供可靠的连接服务，采用三次握手建立一个连接，流程如下：</p>
+<p>（1）第一次握手：客户端发送SYN包（SYN=1， seq=x）到服务器，并进入SYN_SENT 状态，等待服务器确认；</p>
+<p>（2）第二次握手：服务器收到SYN包，必须确认客户的SYN（ACK=1，ack=x+1）,同时自己也发送一个SYN包（SYN=1，seq=y），即SYN+ACK包，此时服务器进入SYN_RECV状态；</p>
+<p>（3）第三次握手：客户端收到服务器的SYN+ACK包，向服务器发送ACK确认包（ACK=1，ack=y+1，seq=x+1），此包发送完毕，客户端和服务器进入ESTABLISHED状态，完成三次握手。</p>
+<h3 id="7、为什么要三次握手"><a href="#7、为什么要三次握手" class="headerlink" title="7、为什么要三次握手"></a>7、为什么要三次握手</h3><pre><code>    为了实现可靠数据传输，TCP协议的通信双方都必须维护一个序列号，以标识发送出去的数据包中，哪些是已经被对方收到的。三次握手的过程即是通信双方相互告知序列号起始值，并确认对方已经收到了序列号起始值的必经步骤。如果只是两次握手，至多只有连接发起方的起始列号能被确认。
+</code></pre>
+<h3 id="8、TCP-四次挥手"><a href="#8、TCP-四次挥手" class="headerlink" title="8、TCP 四次挥手"></a>8、TCP 四次挥手</h3><p>（1）第一次挥手：客户端向服务端发送一个FIN包（FIN=1，seq=u），用来关闭客户端到服务端的数据传达，客户端进入FIN_WAIT_1状态；</p>
+<p>（2）第二次挥手：服务端收到FIN后，发送一个ACK包（ACK=1， ack=u+1， seq=v）给客户端，服务端进入CLOSE_WAIT状态，客户端收到数据后进入FIN_WAIT2状态；</p>
+<p>（3）第三次挥手：服务端发送一个FIN包(FIN=1,ACK=1, ack=u+1,seq=w)，用来关闭服务端到客户端的数据传达，服务端进入LAST_ACK状态；</p>
+<p>（4）第四次挥手：客户端收到FIN后，客户端进入TIME_WAIT状态，接着发送一个ACK包（ACK=1，seq=u+1， ack=w+1）给服务端，服务端进入CLOSED状态，完成四次挥手。</p>
+<h3 id="9、为什么要四次挥手"><a href="#9、为什么要四次挥手" class="headerlink" title="9、为什么要四次挥手"></a>9、为什么要四次挥手</h3><pre><code>    因为全双工，发送方和接收方都需要FIN报文和ACK报文
+</code></pre>
+<h3 id="10、服务器出现大量CLOSE-WAI状态的原因"><a href="#10、服务器出现大量CLOSE-WAI状态的原因" class="headerlink" title="10、服务器出现大量CLOSE_WAI状态的原因"></a>10、服务器出现大量CLOSE_WAI状态的原因</h3><pre><code>     对方关闭socket连接，我方忙于读或写，没有及时关闭连接。如何避免？
+
+  （1）检查代码，特别是释放资源的代码；（2）检查配置，特别是处理请求的线程配置
+</code></pre>
+<h3 id="11、为什么会有TIME-WAIT状态（2MLS）"><a href="#11、为什么会有TIME-WAIT状态（2MLS）" class="headerlink" title="11、为什么会有TIME_WAIT状态（2MLS）"></a>11、为什么会有TIME_WAIT状态（2MLS）</h3><pre><code>  （1）为了确保有足够的时间让对方收到ACK包 （2）避免新旧连接混淆
+</code></pre>
+<h3 id="12、TCP和UDP的区别"><a href="#12、TCP和UDP的区别" class="headerlink" title="12、TCP和UDP的区别"></a>12、TCP和UDP的区别</h3><p>（1）TCP面向连接 ，UDP 是无连接的</p>
+<p>（2）TCP提供可靠的服务，通过TCP连接传送的数据无差错，不丢失，不重复且按序到达，UDP尽最大努力交付，即不保证可靠交付</p>
+<p>（3）TCP连接只能是点到点的，即一对一，UDP支持一对一、一对多、多对一和多对多对交互通信</p>
+<p>（4）TCP首部开销至少20字节，UDP的首部开销小，只有8个字节</p>
+<h3 id="13、流量控制：通过调节发送方的发包速率避免接收方的缓存溢出"><a href="#13、流量控制：通过调节发送方的发包速率避免接收方的缓存溢出" class="headerlink" title="13、流量控制：通过调节发送方的发包速率避免接收方的缓存溢出"></a>13、流量控制：通过调节发送方的发包速率避免接收方的缓存溢出</h3><p>滑动窗口的大小</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/daf64ec9-93b9-4bff-87be-5ad086ba8cbe/Untitled.png" alt="Untitled"></p>
+<p>建议窗口大小 =  最大接收窗口Buffer - （LastByteRcvd - LastByteRead）</p>
+<p>有效窗口大小 = 建议窗口大小 - （LastByteSent - LastByteAcked）</p>
+<h3 id="14、拥塞控制：通过调节发送方的发包速率避免路由器的缓存溢出"><a href="#14、拥塞控制：通过调节发送方的发包速率避免路由器的缓存溢出" class="headerlink" title="14、拥塞控制：通过调节发送方的发包速率避免路由器的缓存溢出"></a>14、拥塞控制：通过调节发送方的发包速率避免路由器的缓存溢出</h3><p>（1） 慢启动：mss=1开始，发包速率指数增长，如果遇到了timeout还未受收到ACK，mss=1，下次慢启动的域值为之前timeout的一半，然后开始线性增；如果遇到3次冗余ack，则进入快速恢复阶段，即mss=3次冗余时的一半，之后再进入线性增加阶段</p>
+<p>（2）拥塞避免：发包速率线性增长</p>
+
+        </div>
+
+        
+
+        
+            <ul class="post-tags-box">
+                
+                    <li class="tag-item">
+                        <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">#计算机网络</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+              <span>2020</span>
+              -
+            
+            2022&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">Katie</a>
+        </div>
+        
+        <div class="theme-info info-item">
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.4.5</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-expand-width flex-center">
+            <i class="fas fa-arrows-alt-h"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+
+
+
+
+
+<div class="post-scripts">
+    
+</div>
+
+
+
+</body>
+</html>
